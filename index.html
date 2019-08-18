@@ -26,7 +26,7 @@ featured_image: /images/home-image.jpg
 
 	<div class="wrap">
 
-		{% for member in site.staff_members %}
+		{% assign member = site.staff_members | first %}
 
 		<article class="post post__staff">
 
@@ -45,9 +45,6 @@ featured_image: /images/home-image.jpg
 			</div>
 
 		</article>
-
-		{% endfor %}
-
 	</div>
 </section>
 
