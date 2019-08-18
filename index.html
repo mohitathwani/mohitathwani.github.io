@@ -28,7 +28,7 @@ featured_image: /images/home-image.jpg
 
 		{% for member in site.staff_members %}
 
-		<article class="post">
+		<article class="post post__staff">
 
 			<div class="post__image-wrap">
 				<div class="post__image" style="background-image: url({{ member.image }})"></div>
@@ -36,8 +36,10 @@ featured_image: /images/home-image.jpg
 
 			<div class="post__content-wrap">
 				<div class="post__content">
-					<!-- <h2 class="post__title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
-					<p class="post__subtitle">{{ project.subtitle }}</p> -->
+					{% assign about_me_node = site.data.settings.menu_settings.menu_items | where: "title", "about me" | first %}
+					<h2 class="post__title"><a href="{{ about_me_node.url }}">{{ site.data.settings.basic_settings.site_owner }}</a></h2>
+					
+					<!-- <p class="post__subtitle">{{ project.subtitle }}</p> -->
 					<p class="post__description">{{ member.content }}</p>
 				</div>
 			</div>
@@ -47,7 +49,6 @@ featured_image: /images/home-image.jpg
 		{% endfor %}
 
 	</div>
-
 </section>
 
 <section class="listing">

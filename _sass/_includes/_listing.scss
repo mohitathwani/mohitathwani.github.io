@@ -66,6 +66,35 @@
 	}
 }
 
+.post__staff {
+	&:hover {
+		
+		.post__image {
+			@include scale(1.0);
+		}
+	}
+
+	&:nth-child(odd) {
+
+		@include mq(tabletl) {
+
+			.post__image-wrap {
+				left: auto;
+				right: 0;
+			}
+
+			.post__content-wrap {
+				float: left;
+				padding: 30px 0 30px 30px;
+			}
+
+			.post__content {
+				margin: 0 -30px 0 0;
+			}
+		}
+	}
+}
+
 .post__image-wrap {
 	position: relative;
 	height: 0;
