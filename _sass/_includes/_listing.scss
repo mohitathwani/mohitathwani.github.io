@@ -67,7 +67,11 @@
 }
 
 .post__staff {
+	cursor: default;
 	&:hover {
+		.post__title {
+			color: $accent-color;
+		}
 		
 		.post__image {
 			@include scale(1.0);
