@@ -70,6 +70,6 @@ At the end of the recursion, what you get back is a two dimensional array contai
 
 The recursive call stack would look like this:
 
-![](/images/weaving.gif)
+![Weaving stack frames](/images/weaving.gif)
 
 The code is also available as a [gist](https://gist.github.com/mohitathwani/ed220e4bdd5d9fcddde528ebf1487730).

@@ -1,7 +1,6 @@
 ---
 title: 'Generate Parantheses'
 date: 2018-06-23 10:00:00
-# description: A simple recursive algorithm to generate all the possible weaves of two arrays keeping the relative order of the elements.
 featured_image: '/images/parantheses.png'
 categories: [Algorithms, Backtracking, Recursion, String, Leetcode]
 redirect_from: /leetcode/leetcode-22-generate-parentheses/
