@@ -1,7 +1,7 @@
 basic_settings:
   site_title: MOAT
   site_owner: Mohit Athwani
-  site_tagline: Adventures in C++, iOS, LInux, and the biggest of all..Life!
+  site_tagline: Adventures in C++, iOS, Unix, and the biggest of all..Life!
   favicon_image: /images/favicons/favicon.ico
 
 header_settings:
