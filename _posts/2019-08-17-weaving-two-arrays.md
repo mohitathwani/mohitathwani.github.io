@@ -4,7 +4,7 @@ date: 2019-08-17 10:00:00
 # description: A simple recursive algorithm to generate all the possible weaves of two arrays keeping the relative order of the elements.
 featured_image: '/images/weaving.jpg'
 categories: [Algorithms, Backtracking, Recursion]
-redirect_from: /backtracking/weaving-two-arrays #so that wordpress links out on the internet will bring users here.
+redirect_from: /backtracking/weaving-two-arrays/ #so that wordpress links out on the internet will bring users here.
 ---
 This is an interesting recursion problem where the aim is to find all the possible weaves of 2 arrays keeping the relative order of the elements the same.
 
