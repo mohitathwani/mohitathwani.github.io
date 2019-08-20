@@ -1,8 +1,8 @@
 ---
 title: About me
-subtitle: Personal is the perfect theme for developers, designers and other creatives.
-description: Personal is the perfect theme for developers, designers and other creatives.
-featured_image: /images/demo/about.jpg
+#subtitle: My Story
+#description: My Story
+featured_image: /images/mohit.jpg
 ---
 
 ## Features
