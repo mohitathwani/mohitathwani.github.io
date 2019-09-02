@@ -36,7 +36,11 @@ CURSOR_REFACTORING(MemberwiseInitLocalRefactoring, "Generate Memberwise Initiali
 
 The string *“Generate Memberwise Initializer”* will be presented to the user in Xcode if the user is trying to apply this refactoring at a valid location in their source code. How do we define a valid location? We will discuss this below. The first parameter `MemberwiseInitLocalRefactoring` is used by the toolchain to automatically generate a class `RefactoringActionMemberwiseInitLocalRefactoring` for us.
 
-The next step is to implement the `bool RefactoringActionMemberwiseInitLocalRefactoring::isApplicable(ResolvedCursorInfo Tok, DiagnosticEngine &amp;Diag)` method:
+The next step is to implement the 
+```c++
+bool RefactoringActionMemberwiseInitLocalRefactoring::isApplicable(ResolvedCursorInfo Tok, DiagnosticEngine &Diag)
+``` 
+method:
 
 ```c++
 bool RefactoringActionMemberwiseInitLocalRefactoring::
