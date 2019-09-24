@@ -103,7 +103,7 @@ class BinarySearchTree {
   }
   
   public func find(value: Int) -> Bool {
-    return findNode(value: value).toBool
+    return !(findNode(value: value) == nil)
   }
   
   public func delete(value: Int) {
@@ -249,15 +249,6 @@ extension BinarySearchTree {
     deinit {
       Swift.print("Deleting: ", self)
     }
-  }
-}
-
-extension Optional where Wrapped: BinarySearchTree.Node {
-  var toBool: Bool {
-    guard let _ = self else {
-      return false
-    }
-    return true
   }
 }
 ```
