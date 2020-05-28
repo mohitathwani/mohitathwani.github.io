@@ -5,7 +5,7 @@ featured_image: '/images/subtree.jpg'
 categories: [Algorithms, Tree, Graph, DFS]
 ---
 
-## Problem Statement
+###### Problem Statement
 There exists two very large binary trees, with one tree, `T1` relatively much bigger than the other `T2`. How can we efficiently determine if `T2` is a sub tree of `T1`?
 
 ***Note***: A tree `T2` is a sub tree of `T1` if and only if there is a node in `T1` which when cut off from `T1`, the tree rooted at that node is exactly identical to `T2` in terms of data and structure.

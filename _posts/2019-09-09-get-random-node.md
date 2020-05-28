@@ -5,7 +5,7 @@ featured_image: '/images/get-random-node.jpg'
 categories: [Algorithms, Binary Search Tree]
 ---
 
-## Problem Statement
+###### Problem Statement
 The goal of this challenge is to build your own BinarySearchTree class which in addition to supporting *insert*, *find* and *delete* also supports a special operation *getRandomNode()* which returns a random node from the binary search tree with special consideration that each node in the binary search tree is **equally likely** to be selected. 
 
 ## Explanation
