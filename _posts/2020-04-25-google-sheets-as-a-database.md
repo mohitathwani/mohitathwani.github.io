@@ -19,15 +19,14 @@ After a month of use, during which I’d spend a lot of time in the mornings rec
 
 Before diving in head first, I thought it would be a nice idea to come up with a plan for the apps. I talk about them below:
 
-
-# Project Goals
+## Project Goals
 The goal of this project is simple. It is to foster a positive learning environment for myself and others in the field of app development. 
 
 The project should use the latest APIs available and have a clean, simple and a smooth user experience. 
 
 The project will be split up into 4 phases. 
 
-## Phase 1
+### Phase 1
 
 1. Ability to connect to Google Drive via The Google iOS SDK. 
 2. Ability to read data points of interest from the Dashboard tab of the Aspire Sheet. 
@@ -36,27 +35,27 @@ The project will be split up into 4 phases.
 5. Fastlane integration for beta deployments, CI/CD, screenshot creation and beta tester sign up sheet. 
 6. No data will be cached in Phase 1. The goal of the next few phases will be to build a solid privacy guideline and strategy. 
 
-## Phase 2
+### Phase 2
 
 1. Ability to add Transactions. 
 2. Ability to perform Category Transfers.
-3. Building a privacy guideline and strategy with the community enhance user experience using caching. 
+3. Building a privacy guideline and strategy with the community to enhance user experience using caching. 
 
-## Phase 3
+### Phase 3
 
 1. Data synchronization. 
 2. Efficient strategy for merging data and conflict resolution between data on the cloud and on the device. 
 
-## Phase 4
+### Phase 4
 
 1. A complete on boarding flow right from copying the sheet from the Aspire website to the users account and entering all the required data in the Configurations tab. 
 
 Phase 2(3) and Phase 3(1) and Phase 3(2) are too high level at this point and will require some research and expertise.
 
 
-# Current State of Affairs
+## Current State of Affairs
 
-The goals mentioned above give me some direction and the app is already available on the App Store and in beta on the Play Store with the ability to:
+The goals mentioned above gave me some direction and the app is already available on the App Store and in beta on the Play Store with the ability to:
 
 1. Sign in with Google
 2. Link your Aspire Sheet to the app
@@ -65,12 +64,12 @@ The goals mentioned above give me some direction and the app is already availabl
 5. View account balances.
 
 
-# Try the apps
+## Try the apps
 
 If you are interested and would want to take the apps for a spin, you can get it from the [App Store](https://apps.apple.com/us/app/aspire-budgeting/id1486036521), [Play Store](https://play.google.com/store/apps/details?id=com.aspirebudgetingmobile.aspirebudgeting), or if you want to take some risks, join the beta list on [TestFlight](https://testflight.apple.com/join/6Kpe4ue2)
 
-# Contributions
+## Contributions
 
-If you would like to help out, check it out on [Github](https://github.com/aspirebudgetingmobile/). There are some great contributors and I would love to have you join in too!
+If you would like to help out, be it programming or UI/UX, check out the project on [Github](https://github.com/aspirebudgetingmobile/). There are some great contributors and I would love to have you join in too! 
 
 
