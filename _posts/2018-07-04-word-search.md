@@ -2,7 +2,7 @@
 title: 'Leetcode - 79. Word Search'
 date: 2018-07-04 10:00:00
 featured_image: '/images/word-search.jpg'
-categories: [Algorithms, Array, Backtracking, DFS]
+categories: [Algorithms, Array, Backtracking, Depth First Search]
 redirect_from: backtracking/leetcode-79-word-search/
 ---
 
