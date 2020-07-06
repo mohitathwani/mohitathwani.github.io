@@ -1,7 +1,7 @@
 ---
 title: 'Building a TabBarView with SwiftUI'
 date: 2020-07-01 10:00:00
-featured_image: ''
+featured_image: '/images/TabBarView.png'
 categories: [Open Source, Swift]
 ---
 
