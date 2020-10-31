@@ -2,7 +2,7 @@
 title: 'Leetcode - 42. Trapping Rain Water'
 date: 2018-06-23 10:00:00
 featured_image: '/images/trapping-rain-water.jpg'
-categories: [Algorithms, Array, Recursion, Two POinters, Leetcode]
+categories: [Algorithms, Array, Recursion, Two Pointers, Leetcode]
 redirect_from: /leetcode/leetcode-42-trapping-rain-water/
 ---
 
